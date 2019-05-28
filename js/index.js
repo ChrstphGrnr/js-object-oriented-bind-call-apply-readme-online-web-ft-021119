@@ -3,7 +3,7 @@ function greet() {
     console.log(`my name is ${this.name}, hi!`);
 }
 
-greet(); // my name is , hi!
+greet();
 
 let person = {
     name: 'Bob',
